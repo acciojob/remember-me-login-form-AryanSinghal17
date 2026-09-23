@@ -1,7 +1,7 @@
 let username = document.getElementById("username");
 let password = document.getElementById("password");
 let checkbox = document.getElementById("checkbox");
-const btn = document.getElementById("submit");
+const submit = document.getElementById("submit");
 let existing = document.getElementById("existing");
 
 
@@ -12,7 +12,7 @@ if (savedUsername) {
 }
 
 
-btn.addEventListener("click", () => {
+submit.addEventListener("click", () => {
 
   if (!username.value || !password.value) {
     alert("Please enter username and password");
