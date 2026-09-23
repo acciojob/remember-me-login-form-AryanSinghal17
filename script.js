@@ -1,8 +1,7 @@
-//your JS code here. If required.
 let username = document.getElementById("username");
 let password = document.getElementById("password");
 let checkbox = document.getElementById("checkbox");
-let btn = document.getElementById("btn");
+const btn = document.getElementById("submit");
 let existing = document.getElementById("existing");
 
 
